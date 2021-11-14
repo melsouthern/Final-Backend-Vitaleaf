@@ -1,6 +1,6 @@
 # Vitaleaf Backend Repo
 
-![](https://github.com/melsouthern/Final-Frontend-Vitaleaf/blob/main/IMG_0327.JPG)
+![](https://github.com/melsouthern/Final-Backend-Vitaleaf/blob/main/IMG_0346.PNG)
 
 ## Project Overview
 
@@ -39,43 +39,45 @@ Alternatively, you can take a look at a short app demonstration on the below lin
 
 3. Now you have cloned and opened the repository, you will need to download the `development dependencies` to ensure that the environment is setup correctly. To do this, enter `npm install` into your command line.
 
-4. Please note the following command to get the mobile simulator running:
+4. Please note the following:
 
-- `expo start` - this will open expo, from here you will need to open either an ios or android simulator from the expo webpage. Please note, you will need to have expo installed for this to run a simulator.
+- `npm test` - this will run the test suite
+- Please note that this repo only holds the API endpoints which have been added to AWS Lambda directly
 
-## BETA
+## Live API Link
 
-https://l81eyc3fja.execute-api.eu-west-2.amazonaws.com/beta
+https://l81eyc3fja.execute-api.eu-west-2.amazonaws.com/beta/plants
 
-## Current Endpoints
+## Endpoints
 
-```http
 GET /plants
-    ?category={category}
-    ?search={filters common and botanical names using regex}
+?category={category}
+?search={filters common and botanical names using regex}
 
 GET /plants/{commonName}
 
 GET /users
 
 POST /users
-    { username, email }
+input field: { username, email }
 
 GET /users/{username}
 
 PATCH /users/{username}
-    { newUserName }
+input field: { newUserName }
 
 GET /users/{username}/plants
 
 POST /users/{username}/plants
-    { nickName, commonName }
+input field: { nickName, commonName }
 
-GET /users/{username}/plants/{nickname}
+GET /users/{username}/plants/{plant_id}
 
-DELETE /users/{username}/plants/{nickname}
+DELETE /users/{username}/plants/{plant_id}
 
-PATCH /users/{username}/plants/{nickname}
-    { newNickName }
+PATCH /users/{username}/plants/{plant_id}
+input field: { newNickName }
+
+```
 
 ```
