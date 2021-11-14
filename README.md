@@ -50,8 +50,8 @@ https://l81eyc3fja.execute-api.eu-west-2.amazonaws.com/beta/plants
 
 ## Endpoints
 
-`GET /plants`
-?category={category}
+`GET /plants`\
+?category={category}\
 ?search={filters common and botanical names using regex}
 
 `GET /plants/{commonName}`
