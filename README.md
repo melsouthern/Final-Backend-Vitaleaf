@@ -31,11 +31,11 @@ Alternatively, you can take a look at a short app demonstration on the below lin
 - AWS S3
 - AWS Cognito
 
-## Frontend Repo Setup
+## Backend Repo Setup
 
-1. Firstly, you will need to `fork` the repository to your personal GitHub account. To do this, open the GitHub repository at `https://github.com/melsouthern/Final-Frontend-Vitaleaf` and click on the 'Fork' button on the top right hand corner of the repository. From here you can select your personal account where the repository will be accessible.
+1. Firstly, you will need to `fork` the repository to your personal GitHub account. To do this, open the GitHub repository at `https://github.com/melsouthern/Final-Backend-Vitaleaf` and click on the 'Fork' button on the top right hand corner of the repository. From here you can select your personal account where the repository will be accessible.
 
-2. Once the repository has been forked, you will need to `clone` this repository down to your local machine. To do this, make sure you are on the newly forked personal repository `yourUsername/Final-Frontend-Vitaleaf`, click on the 'Code' button and copy the link provided. From here, open up your IDE and use `git clone` in your command line alongside the provided weblink given to clone the repository to your machine.
+2. Once the repository has been forked, you will need to `clone` this repository down to your local machine. To do this, make sure you are on the newly forked personal repository `yourUsername/Final-Backend-Vitaleaf`, click on the 'Code' button and copy the link provided. From here, open up your IDE and use `git clone` in your command line alongside the provided weblink given to clone the repository to your machine.
 
 3. Now you have cloned and opened the repository, you will need to download the `development dependencies` to ensure that the environment is setup correctly. To do this, enter `npm install` into your command line.
 
@@ -48,7 +48,7 @@ Alternatively, you can take a look at a short app demonstration on the below lin
 
 https://l81eyc3fja.execute-api.eu-west-2.amazonaws.com/beta/plants
 
-## Endpoints
+## API Endpoints
 
 `GET /plants`\
 ?category={category}\
