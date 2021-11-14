@@ -50,34 +50,30 @@ https://l81eyc3fja.execute-api.eu-west-2.amazonaws.com/beta/plants
 
 ## Endpoints
 
-GET /plants
+`GET /plants`
 ?category={category}
 ?search={filters common and botanical names using regex}
 
-GET /plants/{commonName}
+`GET /plants/{commonName}`
 
-GET /users
+`GET /users`
 
-POST /users
+`POST /users`
 input field: { username, email }
 
-GET /users/{username}
+`GET /users/{username}`
 
-PATCH /users/{username}
+`PATCH /users/{username}`
 input field: { newUserName }
 
-GET /users/{username}/plants
+`GET /users/{username}/plants`
 
-POST /users/{username}/plants
+`POST /users/{username}/plants`
 input field: { nickName, commonName }
 
-GET /users/{username}/plants/{plant_id}
+`GET /users/{username}/plants/{plant_id}`
 
-DELETE /users/{username}/plants/{plant_id}
+`DELETE /users/{username}/plants/{plant_id}`
 
-PATCH /users/{username}/plants/{plant_id}
+`PATCH /users/{username}/plants/{plant_id}`
 input field: { newNickName }
-
-```
-
-```
