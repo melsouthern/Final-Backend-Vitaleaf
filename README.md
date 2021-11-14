@@ -58,22 +58,22 @@ https://l81eyc3fja.execute-api.eu-west-2.amazonaws.com/beta/plants
 
 `GET /users`
 
-`POST /users`
+`POST /users`\
 input field: { username, email }
 
 `GET /users/{username}`
 
-`PATCH /users/{username}`
+`PATCH /users/{username}`\
 input field: { newUserName }
 
 `GET /users/{username}/plants`
 
-`POST /users/{username}/plants`
+`POST /users/{username}/plants`\
 input field: { nickName, commonName }
 
 `GET /users/{username}/plants/{plant_id}`
 
 `DELETE /users/{username}/plants/{plant_id}`
 
-`PATCH /users/{username}/plants/{plant_id}`
+`PATCH /users/{username}/plants/{plant_id}`\
 input field: { newNickName }
