@@ -69,7 +69,7 @@ input field: { newUserName }
 `GET /users/{username}/plants`
 
 `POST /users/{username}/plants`\
-input field: { nickName, commonName }
+input field: { plant_id, commonName }
 
 `GET /users/{username}/plants/{plant_id}`
 
